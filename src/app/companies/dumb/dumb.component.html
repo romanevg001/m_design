@@ -1,0 +1,24 @@
+<form [formGroup]="dumpForm" class="panel-select">
+  <div>
+    <select formControlName="category">
+      <option value="All">-- All category --</option>
+      <option *ngFor="let category of categoryOptions">
+        {{category}}
+      </option>
+    </select>
+  </div>
+  <div>
+    <select formControlName="company">
+      <option value="All">-- All occurrences --</option>
+      <option *ngFor="let item of items" [ngValue]="item">
+        {{item.name}}
+      </option>
+    </select>
+  </div>
+</form>
+<div [chart]="chart"></div>
+<div class="panel-results">
+  <div>Month: {{month}}</div> 
+  <div><button *ngIf="isBtnOpenShow" (click)="onItemSelected()">open</button></div>
+  <div>Total: {{total}}</div> 
+</div>

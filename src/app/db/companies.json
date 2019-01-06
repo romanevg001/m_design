@@ -1,0 +1,84 @@
+{
+  "companies": [
+    {
+      "id": 1234,
+      "name": "some name1",
+      "type": "someType1",
+      "revenuePerWeek": {
+        "monday": 12,
+        "tuesday": 5,
+        "wednesday": 34,
+        "thursday": 15,
+        "friday": 10,
+        "saturday": 21,
+        "sunday": 20
+      },
+      "revenue": 1500,
+      "monthRevenue": 345
+    },
+    {
+      "id": 654,
+      "name": "some name2",
+      "type": "someType1",
+      "revenuePerWeek": {
+        "monday": 16,
+        "tuesday": 18,
+        "wednesday": 39,
+        "thursday": 17,
+        "friday": 14,
+        "saturday": 25,
+        "sunday": 22
+      },
+      "revenue": 500,
+      "monthRevenue": -45
+    },
+    {
+      "id": 987,
+      "name": "some name3",
+      "type": "someType2",
+      "revenuePerWeek": {
+        "monday": 1,
+        "tuesday": 15,
+        "wednesday": 134,
+        "thursday": 150,
+        "friday": 12,
+        "saturday": 31,
+        "sunday": 10
+      },
+      "revenue": 6500,
+      "monthRevenue": 185
+    },
+    {
+      "id": 12,
+      "name": "some name4",
+      "type": "someType2",
+      "revenuePerWeek": {
+        "monday": 3,
+        "tuesday": 8,
+        "wednesday": 34,
+        "thursday": 50,
+        "friday": 120,
+        "saturday": 36,
+        "sunday": 22
+      },
+      "revenue": 500,
+      "monthRevenue": 125
+    },
+    {
+      "id": 57,
+      "name": "some name5",
+      "type": "someType2",
+      "revenuePerWeek": {
+        "monday": 51,
+        "tuesday": 105,
+        "wednesday": 14,
+        "thursday": 50,
+        "friday": 120,
+        "saturday": 131,
+        "sunday": 19
+      },
+      "revenue": 3500,
+      "monthRevenue": 155
+    }
+  ]
+}
